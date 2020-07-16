@@ -4,7 +4,7 @@
   "description": "typescript crawler",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src/crawler.ts"
+    "dev": "ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
