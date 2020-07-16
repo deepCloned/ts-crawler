@@ -1,0 +1,30 @@
+{
+  "name": "ts-crawler",
+  "version": "1.0.0",
+  "description": "typescript crawler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crawler.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepCloned/ts-crawler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepCloned/ts-crawler/issues"
+  },
+  "homepage": "https://github.com/deepCloned/ts-crawler#readme",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.21",
+    "@types/superagent": "^4.1.8",
+    "cheerio": "^1.0.0-rc.3",
+    "superagent": "^5.3.1"
+  }
+}
