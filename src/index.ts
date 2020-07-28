@@ -18,7 +18,7 @@ interface finalResult {
 }
 
 /* 常规模式 */
-class Crawler {
+export class Crawler {
   constructor(private analyer: Analyer) {
     this.initSpider();
   }
@@ -43,6 +43,3 @@ class Crawler {
     return res.text;
   }
 }
-
-const courseAnalyer = CourseAnalyer.getInstance();
-const crawler = new Crawler(courseAnalyer);
